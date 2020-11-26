@@ -1,0 +1,18 @@
+#!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+m=float(input())
+tp=float(input())
+tap=float(input())
+t1=float((tp/100)*m)
+t2=(float(tap/100)*m)
+total=(m+t1+t2)
+total1=total-int(total)
+if(total1>=0.5):
+    print(int(total+1))
+else:
+    print(int(total))
